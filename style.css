@@ -1,0 +1,19 @@
+#image{
+    height: 400px;
+    width: 752px;
+    border-style: none;
+    border-radius: 25px;
+}
+
+.general-container{
+    background-color: #F0E8C2;
+    padding: 24px;
+    font-family: "Alice", serif;
+    color:#573A37;
+}
+.title{
+    color: #291B1A;
+}
+.credits{
+    color: #F0E8C2;
+}
