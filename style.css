@@ -1,3 +1,12 @@
+:root{
+    font-family:"Alice", serif;
+    line-height: 150%;
+    color:#573A37;
+}
+body{
+    background-image:url(./assets/Página\ de\ receita.jpg);
+    background-size: cover;
+}
 #image{
     height: 400px;
     width: 752px;
@@ -6,14 +15,26 @@
 }
 
 .general-container{
+    width: 800px;
+    margin: 48px auto;
     background-color: #F0E8C2;
     padding: 24px;
     font-family: "Alice", serif;
     color:#573A37;
+box-sizing: border-box;/*tira as configuracoes padrao da caixa (para de somar as dimensoes altura e largura com o padding)*/
+    border-style: none;
+    border-radius: 20px;
 }
 .title{
     color: #291B1A;
 }
 .credits{
     color: #F0E8C2;
+}
+h1{
+    line-height: 140%;
+    font-size: 40px;
+}
+h2{
+    font-size: 24px;
 }
